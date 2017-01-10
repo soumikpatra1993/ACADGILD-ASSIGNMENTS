@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gradient</title>
+<style type="text/css">
+	div{
+		width: 100px;
+		height: 100px;
+		float: left;
+		line-height: 100px;
+		border-radius: 15px;
+		text-align: center;
+		margin-left: 10px;
+	}
+	#first{
+		background: rgba(230,76,101,1);
+background: -moz-linear-gradient(left, rgba(230,76,101,1) 0%, rgba(32,124,229,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(230,76,101,1)), color-stop(100%, rgba(32,124,229,1)));
+background: -webkit-linear-gradient(left, rgba(230,76,101,1) 0%, rgba(32,124,229,1) 100%);
+background: -o-linear-gradient(left, rgba(230,76,101,1) 0%, rgba(32,124,229,1) 100%);
+background: -ms-linear-gradient(left, rgba(230,76,101,1) 0%, rgba(32,124,229,1) 100%);
+background: linear-gradient(to right, rgba(230,76,101,1) 0%, rgba(32,124,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64c65', endColorstr='#207ce5', GradientType=1 );
+	}
+	#sec{
+		background: rgba(230,76,101,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(230,76,101,1) 0%, rgba(32,124,229,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(230,76,101,1)), color-stop(100%, rgba(32,124,229,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(230,76,101,1) 0%, rgba(32,124,229,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(230,76,101,1) 0%, rgba(32,124,229,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(230,76,101,1) 0%, rgba(32,124,229,1) 100%);
+background: radial-gradient(ellipse at center, rgba(230,76,101,1) 0%, rgba(32,124,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64c65', endColorstr='#207ce5', GradientType=1 );
+	}
+	#third{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+39,ea2803+51,ff6600+75,c72200+100 */
+background: #f3c5bd; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #f3c5bd 0%, #e86c57 39%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #f3c5bd 0%,#e86c57 39%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #f3c5bd 0%,#e86c57 39%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+	}
+</style>
+</head>
+<body>
+<div id="first">Box</div>
+<div id="sec">Box</div>
+<div id="third">Box</div>
+</body>
+</html>
